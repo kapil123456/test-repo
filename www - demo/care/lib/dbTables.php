@@ -1,0 +1,24 @@
+<?php
+	define('TBL_ENTITY',DB_NAME.'.'.DB_PRE.'entity');
+	define('TBL_ENTITY_TYPES',DB_NAME.'.'.DB_PRE.'entity_types');
+	define('TBL_EVENTS',DB_NAME.'.'.DB_PRE.'events');	
+	define('TBL_ENTITY_EVENTS',DB_NAME.'.'.DB_PRE.'entity_events');
+	define('TBL_ENTITY_HIERARCHY',DB_NAME.'.'.DB_PRE.'entity_hierarchy');
+	define('TBL_PROTOCOL_TYPE',DB_NAME.'.'.DB_PRE.'protocol_type');
+	define('TBL_UPS_OUTPUT_SOURCE',DB_NAME.'.'.DB_PRE.'ups_output_source');
+	define('TBL_USERS',DB_NAME.'.'.DB_PRE.'users');
+	define('TBL_USERS_ROLES',DB_NAME.'.'.DB_PRE.'users_roles');
+	define('TBL_USER_RIGHTS',DB_NAME.'.'.DB_PRE.'user_rights');
+	define('TBL_SNMP_TRAP',DB_NAME.'.'.DB_PRE.'snmp_trap');
+	define('TBL_POLICIES',DB_NAME.'.'.DB_PRE.'policies');
+	define('TBL_PREDEFINED_EVENTS',DB_NAME.'.'.DB_PRE.'predefined_events');
+	define('TBL_USERS_EVENTS',DB_NAME.'.'.DB_PRE.'users_events');
+	define('TBL_POWER_PROFILE',DB_NAME.'.'.DB_PRE.'power_profile');
+	define('TBL_MYSQL_CODE',DB_NAME.'.'.DB_PRE.'mysql_code');
+	define('TBL_GROUPS',DB_NAME.'.'.DB_PRE.'groups');
+	define('TBL_GROUPS_ENTITY',DB_NAME.'.'.DB_PRE.'groups_entity');
+	define('TBL_DISCOVERY_TASKS',DB_NAME.'.'.DB_PRE.'discovery_tasks');
+	define('TBL_UNMANAGED_DEVS',DB_NAME.'.'.DB_PRE.'unmanaged_devs');
+	define('TBL_RACKS_INFO',DB_NAME.'.'.DB_PRE.'racks_info');
+	define('TBL_GRAPH_VALUES',DB_NAME.'.'.DB_PRE.'graph_values');
+?>

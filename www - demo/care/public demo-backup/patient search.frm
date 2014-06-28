@@ -1,0 +1,13 @@
+TYPE=VIEW
+query=select `demo`.`tblpatients`.`p_fname` AS `p_fname`,`demo`.`tblpatients`.`p_lname` AS `p_lname`,`demo`.`tblpatients`.`p_mrn` AS `p_mrn` from `demo`.`tblpatients`
+md5=387c4e99afb6cab926606b4be5cef738
+updatable=1
+algorithm=0
+definer_user=root
+definer_host=%
+suid=1
+with_check_option=0
+revision=1
+timestamp=2014-06-05 17:51:50
+create-version=1
+source=select `demo`.`tblpatients`.`p_fname` AS `p_fname`,`demo`.`tblpatients`.`p_lname` AS `p_lname`,`demo`.`tblpatients`.`p_mrn` AS `p_mrn` from `demo`.`tblpatients`
